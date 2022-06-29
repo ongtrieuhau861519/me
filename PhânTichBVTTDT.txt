@@ -1,0 +1,258 @@
+I: LẤY TOKEN
+				//Khai báo đối tượng Authen.
+				var authen = MeInvoiceFactory.CreateAuthenClass();               
+				// Lấy token từ : appid(misa cung cấp), mã số thuế, tài khoản đăng nhập hệ thống HĐĐT, Mật khẩu.
+				GetTokenOperationResult oResult = authen.GetToken(Session.AppID, txtTaxCode.Text, txtUserName.Text, txtPassword.Text);
+				// Kiểm tra giá trị  oResult được trả về
+                if (oResult.Success && !string.IsNullOrEmpty(oResult.Token))
+                {
+                    //kết quả trả về thành công
+                    string Token = oResult.Token;                    
+                }
+                else
+                {
+                    //thông báo kết nối thất bại và show mã lỗi được trả về.
+                    Common.ShowMessage("Kết nối thất bại, mã lỗi: "+ oResult.ErrorCode);
+                }
+I.I: LẤY MẪU HÓA ĐƠN
+				// Gọi SDK để lấy về danh sách mẫu hóa đơn
+				var  oResult = InvoicePublishingObject.GetInvoiceTemplateForPublish(DateTime.Now.Year,Session.IsInvoiceCode);
+				// kiểm tra và gán mẫu hóa đơn cào combobox
+				if (oResult.Success)
+				{
+					templateList = oResult.TemplateDatas;
+					foreach (TemplateData item in templateList)
+					{
+						cboKyHieu.Items.Add(item.InvSeries);
+					}
+				}
+				else
+				{
+					// Thông báo mã lỗi nếu có
+					Common.ShowMessage(oResult.ErrorCode);
+				}
+II: TẠO HÓA ĐƠN (gồm 3 bước: tạo file xml thô, ký số lên file xml thô, phát hành hóa đơn)
+				// Tạo đối tượng hóa đơn chưa phát hành
+				InvoicePublishingObject = MeInvoiceFactory.CreateInvoicePublishingClass( Session.TaxCode, Session.Token);
+				//Tạo đối tượng hóa đơn đã phát hành
+				IInvoicePublishedObject=MeInvoiceFactory.CreateInvoicePublishedClass( Session.TaxCode, Session.Token);
+				// Khai báo đôi tượng list hóa đơn cần phát hành
+                List<OriginalInvoiceData> lstData = new List<OriginalInvoiceData>();
+                // Lấy giá trị để gán cho đối tượng hóa đơn
+                OriginalInvoiceData invoiceData = BuildOriginalInvoiceData();
+                // Khai báo đối tượng hóa đơn khi tạo xml thô trả về
+                ListCreateInvoiceDataResult InvoiceDataResult = new ListCreateInvoiceDataResult();
+                // Khai báo đối tượng khi phát hành hóa đơn trả về
+                ListPublishInvoiceResult PublishInvoiceResult = new ListPublishInvoiceResult();
+                // Khai báo list đối tượng cần đem đi phát hành
+                List<PublishInvoiceData> lstPublishInvoiceData = new List<PublishInvoiceData>();
+                // khai báo đối tượng HD cần phát hành
+                PublishInvoiceData PublishInvoiceData = new PublishInvoiceData();
+                // thêm đối tượng hóa đơn vào list hóa đơn cần phát hành
+                lstData.Add(invoiceData);
+				
+Bước 1: 		// tạo hóa đơn xml dạng thô
+                InvoiceDataResult = InvoicePublishingObject.CreateInvoiceData(lstData, Session.IsInvoiceCode);
+				
+				
+				 //kiểm trá kết quả trả về thành công không, có xml không. nếu không báo mã lỗi trả về
+                    if( InvoiceDataResult.ErrorCode =="" && InvoiceDataResult.CreateInvoiceDatas.Count > 0)
+					{
+						  // kiểm tra lỗi trong nội dung json không có thì đem đi ký
+						  if(string.IsNullOrEmpty(InvoiceDataResult.CreateInvoiceDatas[0].ErrorCode))
+						  {
+							// Khai báo đối tượng xml chưa xml thô được trả về
+                            XmlDocument XmlData = new XmlDocument();
+                            // gán xml dạng string được trả về khi tạo xml thô để đem đi ký
+                            XmlData.LoadXml(InvoiceDataResult.CreateInvoiceDatas[0].InvoiceData);
+							
+Bước 2: ký số file xml thô	// ký số cho file xml hóa đơn
+							// PHƯƠNG THỨC KÝ QUA TOOL KÝ.
+                                // tên máy chủ ký số
+                                // mã pin của Chứng thư số
+                                // file xml cần ký
+                                // cổng port của tool ký
+                                var oResultSignXML = SignXmlUtil.SignXMLByTool(txtSign_Name.Text, txtSign_Pin.Text, XmlData, "12019");
+                                if (!string.IsNullOrEmpty(oResultSignXML.Data))
+                                {
+                                    XmlData.LoadXml(oResultSignXML.Data);
+                                }
+                                else
+                                {
+                                    Common.ShowMessage("Ký SignService XML lỗi, Mã lỗi: " + oResultSignXML.Error);
+                                    return;
+                                }
+							
+							
+							// Gán giá trị cho đối tượng gọi đi phát hành
+                            PublishInvoiceData.InvoiceData = XmlData.InnerXml;
+                            PublishInvoiceData.RefID = InvoiceDataResult.CreateInvoiceDatas[0].RefID;
+                            PublishInvoiceData.TransactionID = InvoiceDataResult.CreateInvoiceDatas[0].TransactionID;
+                            // Kiểm tra có tùy chọn gửi mail kèm phát hành hay không
+                            if (chkSendEmail.Checked)
+                            {
+                                // biến đánh dấu gửi mail kèm phát hành
+                                PublishInvoiceData.IsSendEmail = true;
+                                // các email được gửi email tới
+                                PublishInvoiceData.ReceiverEmail = txtReceiverEmail.Text;
+                                // tên người nhận email
+                                PublishInvoiceData.ReceiverName = txtReceiverName.Text;
+                            }
+                            lstPublishInvoiceData.Add(PublishInvoiceData);
+ Bước 3: phát hành hóa đơn  // Phát hành hóa đơn lên hệ thống MISA
+                            PublishInvoiceResult = InvoicePublishingObject.PublishInvoice(lstPublishInvoiceData, Session.IsInvoiceCode);
+							
+						  }else
+                          {
+                            Common.ShowMessage("Tạo XML lỗi, Mã lỗi: " + InvoiceDataResult.CreateInvoiceDatas[0].ErrorCode);
+                          } 
+					}else
+                    {
+                        Common.ShowMessage("API tạo XML lỗi, Mã lỗi: " + InvoiceDataResult.ErrorCode);
+                    }
+					
+// kiểm tra xem hàm phát hành thành công hay chưa. nếu lỗi báo theo mã lỗi phía dưới
+                if (PublishInvoiceResult.Success && PublishInvoiceResult.ErrorCode =="")
+                {
+                    // đối tượng nhận kết quả khi phát hành trả về
+                    List<PublishInvoice> pubResult = PublishInvoiceResult.PublishInvoices;
+                    // kiểm tra có đối tượng phát hành trả về không
+                    if (pubResult != null && pubResult.Count > 0)
+                    {
+                        // kiểm tra có mã lỗi trả về không
+                        if (string.IsNullOrEmpty(pubResult[0].ErrorCode))
+                        {
+                            //show các thông tin hóa đơn đã phát hành thành công được trả về
+                            StringBuilder messageBuilder = new StringBuilder();
+                            messageBuilder.AppendFormat("Phát hành hóa đơn thành công.{0}", Environment.NewLine);
+                            messageBuilder.AppendFormat("Mã tra cứu: {0}{1}", pubResult[0].TransactionID, Environment.NewLine);
+                            messageBuilder.AppendFormat("Số hóa đơn: {0}{1}", pubResult[0].InvNo, Environment.NewLine);
+                            messageBuilder.AppendFormat("Ngày hóa đơn: {0}{1}", pubResult[0].InvDate, Environment.NewLine);    
+							Common.ShowMessage(messageBuilder);
+                        }
+                        else
+                        {
+                            //Phát hành không thành công, show mã lỗi trả về
+                            switch (pubResult[0].ErrorCode)
+                            {
+                                case ErrorCode.SignatureEmpty:
+                                    Common.ShowMessage("File chưa được ký");
+                                    break;
+                                case ErrorCode.InvalidSignature:
+                                    Common.ShowMessage("Chữ ký số không hợp lệ");
+                                    break;
+                                case ErrorCode.InvalidXMLData:
+                                    Common.ShowMessage("Dữ liệu XML hóa đơn không hợp lệ");
+                                    break;
+                                case ErrorCode.InvoiceTemplateNotValidInDeclaration:
+                                    Common.ShowMessage("Tờ khai đăng ký/thay đổi đã được Cơ quan thuế chấp nhận không tồn tại");
+                                    break;
+                                case ErrorCode.InvoiceNumberNotCotinuous:
+                                    Common.ShowMessage("Số hóa đơn không liên tục");
+                                    break;
+                                case ErrorCode.InvalidInvNo:
+                                    Common.ShowMessage("Số hóa đơn không hợp lệ");
+                                    break;
+                                case ErrorCode.InvalidInvoiceDate:
+                                    Common.ShowMessage("Ngày hóa đơn không hợp lệ");
+                                    break;
+                                case ErrorCode.TaxRateInfo_:
+                                    Common.ShowMessage("Tên loại thuế suất trong Bảng tổng hợp thuế suất của hóa đơn có dữ liệu không hợp lệ");
+                                    break;
+                                case ErrorCode.InvalidTaxCode:
+                                    Common.ShowMessage("Mã số thuế người bán không giống MST kết nối");
+                                    break;
+
+                                default:
+                                    Common.ShowMessage(pubResult[0].ErrorCode);
+                                    break;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Common.ShowMessage("Phát hành thất bại: " + pubResult[0].ErrorCode);
+                    }
+                }
+                else
+                {
+                    Common.ShowMessage("Phát hành thất bại: " + PublishInvoiceResult.ErrorCode);
+                }	
+III: XÓA HÓA ĐƠN
+				
+				IInvoicePublished InvoicePublished = MeInvoiceFactory.CreateInvoicePublishedClass(Session.TaxCode, Session.Token);
+
+                OperationResult oResult= InvoicePublished.CancelInvoice(txtTransactionID.Text(MÃ TRA CỨU), dteRefDate.Value(NGÀY XÓA HĐ),txtDeleteReason.Text(LÝ DO XÓA HD), Session.IsInvoiceCode(BIẾN ĐÁNH DẤU LÀ HD CÓ MÃ CQT HAY KHÔNG MÃ CQT));
+                
+                if (oResult.Success && string.IsNullOrWhiteSpace(oResult.ErrorCode)) 
+                {
+                    Common.ShowMessage("Xóa thành công");
+                }
+                else
+                {
+                    Common.ShowMessage("Xóa thất bại");
+                }
+IV: TẢI HÓA ĐƠN.
+		
+				 //Khai báo và gán list mã tra cứu cần tải
+                List<string> transactionIDList = new List<string>();               
+                transactionIDList.Add(txtTransactionID.Text);
+                //Khai báo đối tượng xử lý hóa đơn đã phát hành
+                var invoiceObject = MeInvoiceFactory.CreateInvoicePublishedClass( Session.TaxCode,Session.Token);
+                // tải hóa đơn theo list mã tra cứu
+                var oResult = invoiceObject.DownloadInvoiceData(downloadDataType(PDF,XML,ALL), transactionIDList(MÃ TRA CỨU), Session.IsInvoiceCode(BIẾN ĐÁNH DẤU LÀ HD CÓ MÃ CQT HAY KHÔNG MÃ CQT));
+               //kiểm tra kết quả trả về và lưu file theo type tương ứng
+                if (oResult.Success)
+                {
+                    var result = oResult.DownloadInvoices;
+
+                    byte[] fileContent = null;
+                    if (result.Count > 0)
+                    {
+                        if (string.IsNullOrEmpty(result[0].ErrorCode))
+                        {
+                            if(downloadDataType !="xml")
+                              fileContent = Convert.FromBase64String(result[0].Data.ToString());
+                            else
+                                fileContent = Encoding.UTF8.GetBytes(result[0].Data.ToString());
+                        }
+                        else
+                        {
+                            Common.ShowMessage("Error: " + result[0].ErrorCode);
+                        }
+
+                    }
+
+                    if (fileContent != null)
+                    {
+                        string filter = "";
+                        string defaultExt = "";
+                        switch (downloadDataType)
+                        {
+                            case "xml":
+                                filter = "Xml (*.xml)|All (*.*)";
+                                defaultExt = ".xml";
+                                break;
+                            case "pdf":
+                                filter = "Pdf (*.pdf)|All (*.*)";
+                                defaultExt = ".pdf";
+                                break;
+                            case "all":
+                                filter = "Zip (*.zip)|All (*.*)";
+                                defaultExt = ".zip";
+                                break;
+                        }
+
+                        using (SaveFileDialog frm = new SaveFileDialog())
+                        {
+                            frm.Filter = filter;
+                            frm.DefaultExt = defaultExt;
+                            frm.FileName = string.Format("{0}{1}", txtTransactionID.Text, defaultExt);
+                            if (frm.ShowDialog() == DialogResult.OK)
+                            {
+                                System.IO.File.WriteAllBytes(frm.FileName, fileContent);
+                                Common.ShowMessage("Successed.");
+                            }
+                        }
+                    }
+                }

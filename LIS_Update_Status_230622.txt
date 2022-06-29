@@ -1,0 +1,588 @@
+---------=====----------
+2022-06-23 00:38:11: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024032","ngaychidinh":"2022-06-22 23:56:22"}, reponseValue: {"data":[{"code":2,"message":"Mẫu này đã được lấy!"}]}
+---------=====----------
+2022-06-23 00:38:34: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206021944","ngaychidinh":"2022-06-23 00:37:46"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 01:37:21: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024035","ngaychidinh":"2022-06-23 01:34:01"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 01:37:27: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024034","ngaychidinh":"2022-06-23 01:08:26"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 02:09:36: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024036","ngaychidinh":"2022-06-23 02:01:41"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 02:49:02: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024037","ngaychidinh":"2022-06-23 02:48:39"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 03:35:37: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024041","ngaychidinh":"2022-06-23 03:18:17"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 04:27:30: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024043","ngaychidinh":"2022-06-23 04:06:10"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 05:59:07: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206020892","ngaychidinh":"2022-06-23 05:23:12"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 05:59:13: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022285","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:00:06: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206019730","ngaychidinh":"2022-06-23 05:22:07"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:05:25: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024050","ngaychidinh":"2022-06-23 06:03:35"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:05:31: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024051","ngaychidinh":"2022-06-23 06:04:50"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:06:56: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206021923","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:07:03: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206019749","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:07:10: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022763","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:07:18: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022793","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:07:25: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206019706","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:07:34: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206020462","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:07:42: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022796","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:08:13: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024037","ngaychidinh":"2022-06-23 02:48:39"}, reponseValue: {"data":[{"code":3,"message":"Mẫu này đã được thực hiện!"}]}
+---------=====----------
+2022-06-23 06:08:23: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206020857","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:08:31: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206020688","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:08:37: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206019182","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:08:43: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022765","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:08:51: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022781","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:08:57: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206019874","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:09:06: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022592","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:09:12: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022171","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:09:17: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206019881","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:09:21: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206019942","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:09:26: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206021117","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:09:30: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022751","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:09:35: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206019333","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:09:39: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022285","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"data":[{"code":2,"message":"Mẫu này đã được lấy!"}]}
+---------=====----------
+2022-06-23 06:09:47: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206020471","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:09:54: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022011","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:10:00: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206019356","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:10:04: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206021342","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:10:09: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206021035","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:10:13: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206020435","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:10:17: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206019367","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:10:23: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206020160","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:10:29: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206019365","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:10:35: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206023677","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:10:41: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206020906","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:10:48: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206021874","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:10:55: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206019810","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:11:02: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206023137","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:11:09: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206023747","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:11:14: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022744","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:11:18: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022767","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:11:22: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022766","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:11:26: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022060","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:11:30: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206020319","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:11:36: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206023036","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:11:40: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206020799","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:11:45: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206023179","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:11:49: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022768","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:11:54: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022426","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:11:58: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206023621","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:12:02: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206021382","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:12:08: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206023614","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:19:00: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024053","ngaychidinh":"2022-06-23 06:13:36"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:19:16: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024066","ngaychidinh":"2022-06-23 06:16:57"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:19:31: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206020302","ngaychidinh":"2022-06-23 06:10:12"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:23:00: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024056","ngaychidinh":"2022-06-23 06:22:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:23:28: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024057","ngaychidinh":"2022-06-23 06:23:36"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:27:13: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024054","ngaychidinh":"2022-06-23 06:22:37"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:28:24: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024058","ngaychidinh":"2022-06-23 06:25:17"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:31:09: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024060","ngaychidinh":"2022-06-23 06:28:10"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:31:53: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024059","ngaychidinh":"2022-06-23 06:26:56"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:32:49: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024061","ngaychidinh":"2022-06-23 06:29:56"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:35:25: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024062","ngaychidinh":"2022-06-23 06:31:52"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:40:01: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024064","ngaychidinh":"2022-06-23 06:39:48"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 06:42:55: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024067","ngaychidinh":"2022-06-23 06:42:23"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:00:38: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024094","ngaychidinh":"2022-06-23 06:58:26"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:00:59: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024092","ngaychidinh":"2022-06-23 07:00:47"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:02:11: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024123","ngaychidinh":"2022-06-23 07:02:23"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:10:26: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024134","ngaychidinh":"2022-06-23 07:03:31"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:11:06: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024129","ngaychidinh":"2022-06-23 07:09:04"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:12:00: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024140","ngaychidinh":"2022-06-23 07:09:49"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:12:35: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024093","ngaychidinh":"2022-06-23 07:10:38"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:13:13: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024087","ngaychidinh":"2022-06-23 07:12:33"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:13:49: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024096","ngaychidinh":"2022-06-23 07:09:00"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:16:45: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024109","ngaychidinh":"2022-06-23 07:13:58"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:16:48: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206020302","ngaychidinh":"2022-06-23 06:10:12"}, reponseValue: {"data":[{"code":2,"message":"Mẫu này đã được lấy!"}]}
+---------=====----------
+2022-06-23 07:17:15: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024073","ngaychidinh":"2022-06-23 07:14:16"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:17:57: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024080","ngaychidinh":"2022-06-23 07:16:53"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:18:23: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024167","ngaychidinh":"2022-06-23 07:17:18"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:18:57: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024192","ngaychidinh":"2022-06-23 07:17:32"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:22:34: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024181","ngaychidinh":"2022-06-23 07:22:53"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:23:11: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024074","ngaychidinh":"2022-06-23 07:20:29"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:23:15: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024075","ngaychidinh":"2022-06-23 07:22:15"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:23:20: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024224","ngaychidinh":"2022-06-23 07:22:06"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:24:43: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024158","ngaychidinh":"2022-06-23 07:23:10"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:25:25: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024162","ngaychidinh":"2022-06-23 07:13:22"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:29:54: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024239","ngaychidinh":"2022-06-23 07:26:29"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:30:26: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024115","ngaychidinh":"2022-06-23 07:27:06"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:30:31: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024089","ngaychidinh":"2022-06-23 07:27:08"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:31:40: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024107","ngaychidinh":"2022-06-23 07:31:58"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:33:31: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024133","ngaychidinh":"2022-06-23 07:27:46"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:34:16: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024121","ngaychidinh":"2022-06-23 07:29:43"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:34:21: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024120","ngaychidinh":"2022-06-23 07:33:42"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:34:25: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024112","ngaychidinh":"2022-06-23 07:34:37"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:34:27: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024112","ngaychidinh":"2022-06-23 07:34:37"}, reponseValue: {"data":[{"code":2,"message":"Mẫu này đã được lấy!"}]}
+---------=====----------
+2022-06-23 07:35:16: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024206","ngaychidinh":"2022-06-23 07:32:59"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:35:58: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024114","ngaychidinh":"2022-06-23 07:36:20"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:36:35: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024177","ngaychidinh":"2022-06-23 07:36:52"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:37:20: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024137","ngaychidinh":"2022-06-23 07:38:07"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:37:27: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024116","ngaychidinh":"2022-06-23 07:34:59"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:38:28: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024113","ngaychidinh":"2022-06-23 07:37:59"}, reponseValue: {"error":[{"code":99,"message":"Lỗi thực thi truy vấn dữ liệu. Chi tiết: ERROR: 40001: could not serialize access due to read/write dependencies among transactions"}]}
+---------=====----------
+2022-06-23 07:38:40: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024113","ngaychidinh":"2022-06-23 07:37:59"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:39:24: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024166","ngaychidinh":"2022-06-23 07:37:40"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:40:23: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024104","ngaychidinh":"2022-06-23 07:39:59"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:41:20: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024268","ngaychidinh":"2022-06-23 07:38:37"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:42:50: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024317","ngaychidinh":"2022-06-23 07:39:59"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:44:02: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024198","ngaychidinh":"2022-06-23 07:40:58"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:45:04: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024315","ngaychidinh":"2022-06-23 07:41:39"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:46:02: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024241","ngaychidinh":"2022-06-23 07:41:35"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:46:29: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024270","ngaychidinh":"2022-06-23 07:43:53"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:47:10: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024146","ngaychidinh":"2022-06-23 07:41:47"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:47:59: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024119","ngaychidinh":"2022-06-23 07:42:15"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:48:03: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024145","ngaychidinh":"2022-06-23 07:42:27"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:49:11: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024273","ngaychidinh":"2022-06-23 07:42:47"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:49:50: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024143","ngaychidinh":"2022-06-23 07:43:43"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:50:25: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024252","ngaychidinh":"2022-06-23 07:45:10"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:50:59: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024125","ngaychidinh":"2022-06-23 07:51:38"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:51:38: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024150","ngaychidinh":"2022-06-23 07:46:06"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:52:00: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024257","ngaychidinh":"2022-06-23 07:46:52"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:52:49: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024122","ngaychidinh":"2022-06-23 07:47:53"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:53:19: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024215","ngaychidinh":"2022-06-23 07:46:03"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:54:19: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024305","ngaychidinh":"2022-06-23 07:48:41"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:54:42: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024132","ngaychidinh":"2022-06-23 07:49:30"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:55:01: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024154","ngaychidinh":"2022-06-23 07:49:44"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:55:31: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024284","ngaychidinh":"2022-06-23 07:50:14"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:55:49: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024189","ngaychidinh":"2022-06-23 07:51:13"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:56:45: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024302","ngaychidinh":"2022-06-23 07:54:18"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:57:26: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024249","ngaychidinh":"2022-06-23 07:54:19"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:57:57: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024199","ngaychidinh":"2022-06-23 07:55:35"}, reponseValue: {"error":[{"code":99,"message":"Lỗi thực thi truy vấn dữ liệu. Chi tiết: ERROR: 40001: could not serialize access due to read/write dependencies among transactions"}]}
+---------=====----------
+2022-06-23 07:58:06: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024199","ngaychidinh":"2022-06-23 07:55:35"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:58:37: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024346","ngaychidinh":"2022-06-23 07:55:12"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:59:02: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024171","ngaychidinh":"2022-06-23 07:55:04"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 07:59:08: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024201","ngaychidinh":"2022-06-23 07:56:06"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:00:14: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024178","ngaychidinh":"2022-06-23 07:55:21"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:01:48: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024401","ngaychidinh":"2022-06-23 08:01:43"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:02:22: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024139","ngaychidinh":"2022-06-23 07:56:52"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:02:51: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024339","ngaychidinh":"2022-06-23 07:56:48"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:03:12: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024170","ngaychidinh":"2022-06-23 07:57:46"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:03:54: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024243","ngaychidinh":"2022-06-23 07:58:07"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:04:19: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024283","ngaychidinh":"2022-06-23 07:58:14"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:04:37: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024307","ngaychidinh":"2022-06-23 07:56:34"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:05:32: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024223","ngaychidinh":"2022-06-23 07:58:16"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:06:15: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024230","ngaychidinh":"2022-06-23 07:58:52"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:06:44: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024191","ngaychidinh":"2022-06-23 07:58:53"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:07:09: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024232","ngaychidinh":"2022-06-23 07:59:34"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:07:14: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024247","ngaychidinh":"2022-06-23 07:59:35"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:08:11: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024211","ngaychidinh":"2022-06-23 08:01:07"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:09:58: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024300","ngaychidinh":"2022-06-23 08:01:37"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:10:14: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024227","ngaychidinh":"2022-06-23 08:02:03"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:10:25: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024300","ngaychidinh":"2022-06-23 08:01:37"}, reponseValue: {"data":[{"code":2,"message":"Mẫu này đã được lấy!"}]}
+---------=====----------
+2022-06-23 08:13:23: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024328","ngaychidinh":"2022-06-23 08:02:49"}, reponseValue: {"error":[{"code":99,"message":"Lỗi thực thi truy vấn dữ liệu. Chi tiết: ERROR: 40001: could not serialize access due to concurrent update"}]}
+---------=====----------
+2022-06-23 08:14:05: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024420","ngaychidinh":"2022-06-23 08:10:36"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:14:44: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024391","ngaychidinh":"2022-06-23 08:03:50"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:15:11: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024184","ngaychidinh":"2022-06-23 08:03:50"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:15:50: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024226","ngaychidinh":"2022-06-23 08:03:51"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:16:15: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024269","ngaychidinh":"2022-06-23 08:04:08"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:17:00: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024301","ngaychidinh":"2022-06-23 08:05:08"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:17:47: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024472","ngaychidinh":"2022-06-23 08:17:58"}, reponseValue: {"error":[{"code":99,"message":"Lỗi thực thi truy vấn dữ liệu. Chi tiết: ERROR: 40001: could not serialize access due to read/write dependencies among transactions"}]}
+---------=====----------
+2022-06-23 08:17:55: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024472","ngaychidinh":"2022-06-23 08:17:58"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:18:33: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024289","ngaychidinh":"2022-06-23 08:06:08"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:18:38: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024197","ngaychidinh":"2022-06-23 08:06:16"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:19:10: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024237","ngaychidinh":"2022-06-23 08:05:43"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:19:49: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024333","ngaychidinh":"2022-06-23 08:06:52"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:19:55: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024446","ngaychidinh":"2022-06-23 08:07:15"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:20:44: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024378","ngaychidinh":"2022-06-23 08:07:30"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:21:50: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024313","ngaychidinh":"2022-06-23 08:08:48"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:22:15: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024248","ngaychidinh":"2022-06-23 08:10:40"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:22:30: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024222","ngaychidinh":"2022-06-23 08:08:35"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:23:12: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024429","ngaychidinh":"2022-06-23 08:11:26"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:23:39: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024279","ngaychidinh":"2022-06-23 08:11:54"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:24:15: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206022011","ngaychidinh":"2022-06-23 06:00:00"}, reponseValue: {"data":[{"code":2,"message":"Mẫu này đã được lấy!"}]}
+---------=====----------
+2022-06-23 08:25:16: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024259","ngaychidinh":"2022-06-23 08:12:53"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:25:55: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024404","ngaychidinh":"2022-06-23 08:15:48"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:39:09: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024334","ngaychidinh":"2022-06-23 08:20:32"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:39:40: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024533","ngaychidinh":"2022-06-23 08:27:15"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:40:24: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024488","ngaychidinh":"2022-06-23 08:27:33"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:40:49: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024449","ngaychidinh":"2022-06-23 08:28:28"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:41:57: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024419","ngaychidinh":"2022-06-23 08:34:04"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:42:30: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024407","ngaychidinh":"2022-06-23 08:31:53"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:42:58: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024455","ngaychidinh":"2022-06-23 08:34:15"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:43:50: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024463","ngaychidinh":"2022-06-23 08:34:28"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:45:01: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024390","ngaychidinh":"2022-06-23 08:26:30"}, reponseValue: {"error":[{"code":99,"message":"Lỗi thực thi truy vấn dữ liệu. Chi tiết: ERROR: 40001: could not serialize access due to read/write dependencies among transactions"}]}
+---------=====----------
+2022-06-23 08:45:10: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024390","ngaychidinh":"2022-06-23 08:26:30"}, reponseValue: {"error":[{"code":99,"message":"Lỗi thực thi truy vấn dữ liệu. Chi tiết: ERROR: 40001: could not serialize access due to read/write dependencies among transactions"}]}
+---------=====----------
+2022-06-23 08:45:19: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024390","ngaychidinh":"2022-06-23 08:26:30"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}
+---------=====----------
+2022-06-23 08:45:48: 
+Link API: http://192.168.1.5:8081/api/SP_Lay_Mau, detail: {"username":"api","password":"api","sophieuyeucau":"2206024409","ngaychidinh":"2022-06-23 08:35:59"}, reponseValue: {"laymau":[{"code":1,"message":"Lấy mẫu thành công!"}]}

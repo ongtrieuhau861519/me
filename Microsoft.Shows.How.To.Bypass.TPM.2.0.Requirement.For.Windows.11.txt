@@ -1,0 +1,26 @@
+Microsoft Shows How To Bypass TPM 2.0 Requirement For Windows 11
+The workaround enables Windows computers that support TPM 1.2 and up to install the operating system.
+
+By Grace Benfell on October 6, 2021 at 1:03PM PDT Comments
+GameSpot Newsletters
+Get the latest gaming news, reviews, and deals sent to your inbox, FREE!
+
+Email Address
+While Windows 11 still requires that your PC support TPM 2.0, there is a workaround for computers without the required hardware, and Microsoft itself has offered up the solution.
+
+Long story short, TPM (Trusted Platform Module) is a technology that protects your computer's data. An upgraded TPM means upgraded security for Windows 11 users. However, while many PCs support TPM 2.0, not all of them do. There is now an official solution. As PC Gamer reported, Microsoft published a tutorial on its support page outlining how to install Windows 11 on a machine without TPM 2.0.
+
+Microsoft clarifies in the tutorial that it does not recommend installation on any PC that does not meet the requirements. It also encourages customers to reach out to support before trying any installation method other than the standard route. Your PC will still need to support at least TPM 1.2. With that in mind, here is the method it described.
+
+To start, you'll have to make sure the BIOS for your TPM are activated. The exact instructions for that will depend on your hardware. For details, check out GameSpot's tutorial to find out how to enable TPM 2.0 on your PC, should you have it, and how to activate it if you don't. If you're not sure whether you have it or not, the tutorial should help you find out.
+
+To install Windows 11 without TPM 2.0, you'll have to change the registry key values to skip the check for TPM 2.0.
+
+First off, hit the hotkey Win+r and type in regedit.
+From there, you will click through to HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup.
+Right click the registry editor window and select new, then DWORD (32-bit value).
+Name it AllowUpgradesWithUnsupportedTPMOrCPU.
+Then change its value to 1.
+
+
+Afterwards, you should be able to upgrade to Windows 11 without having TPM 2.0.
